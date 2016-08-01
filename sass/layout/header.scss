@@ -1,0 +1,18 @@
+header{
+	border-bottom: 2px solid $cl-princ;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	font-family:'Lobster Two', cursive;
+}
+.navbar-default{
+	background-color: $black; 
+ 	border: 0;
+ 	border-bottom: 2px solid $cl-princ;
+ 	height:60px;
+ 	.navbar-brand{
+	   color: $cl-princ;
+       font-family: 'Dancing Script', cursive;
+	}
+}

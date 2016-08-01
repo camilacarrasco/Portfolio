@@ -1,0 +1,9 @@
+@mixin b-bottom ($b-bottom) {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: $b-bottom;
+	border-left: 0;
+}
+
+
+
