@@ -1,1 +1,51 @@
+@media (min-width: 384px) and (max-width: 800px){
+	.fondo-1 {
+           background-image:none;
+           background-color:$black;
+           height:360px;
+       }
+	.logos img{
+		width:40%;
+		height: 40%;
+		text-align:center;
+		border-top: 1px solid $cl-princ;
+	}
+	.logos:hover{
+		width:30%;
+		height:30%;
+	}
+	.img-circle{
+		height:150px;
+		width: 150px;
+		text-align: center;
 
+		}
+		.center{
+			font-size: 10px;
+		}
+	    .demo-3{
+			width:120px;
+            height:202px;
+		    overflow:hidden;
+		    float:left;
+		}
+		.demo-3 figure h2{
+			font-size: 10px;
+		}
+		.demo-3 figure p{
+			font-size:4px;
+			display:block;
+			line-height:8px;
+		}
+		.demo-3 br{
+			display:none;
+		}
+	footer{
+		.fa{
+			width: 50px;
+			height: 50px;
+			font-size:40px;
+			text-align: center;
+		}
+	}
+}

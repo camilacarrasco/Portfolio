@@ -6,6 +6,12 @@ header{
 	z-index: 2;
 	font-family:'Lobster Two', cursive;
 }
+.bg-black {
+  background: $black;
+  height:60px;
+  border-bottom: 2px solid $cl-princ;
+}
+
 .navbar-default{
 	background-color: $black; 
  	border: 0;
@@ -15,4 +21,11 @@ header{
 	   color: $cl-princ;
        font-family: 'Dancing Script', cursive;
 	}
+}
+.navbar-default .navbar-nav>li> .menu{
+  font-weight: bold;
+  font-size: 1.2em;
+  &:hover{
+    color: $cl-princ;
+  }
 }

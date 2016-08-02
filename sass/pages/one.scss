@@ -34,11 +34,6 @@
   font-family: 'Lobster Two', cursive;
   padding:40px;
 }
-.text-center-3{
-  color: #E51960;
-  text-align: center;
-  font-family: 'Lobster Two', cursive;
-}
 .center{
   color:$gray;
   text-justify:justify;
@@ -141,15 +136,12 @@
   border-bottom:2px solid $cl-princ;
   padding-top:20px;
 }
-.html{
-  float:left;
-}
+//sobre mi
 .logos:hover{
   width:30%;
   border-bottom:2px solid $cl-princ;
-  border-right:2px solid $cl-princ;
+  border-right:1px solid $cl-princ;
 }
 #sobre-mi{
   padding-bottom:15px;
-  
 }
