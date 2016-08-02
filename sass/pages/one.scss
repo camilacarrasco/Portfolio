@@ -8,14 +8,14 @@
 }
 .fondo-1 {
   background-image: url("../img/diagrama.jpg");
+  height:550px;
 }
 .modulo-alto {
   padding: 1em;
   min-height: 100vh;
   text-align: center;
-  height: 20%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6); 
+  height: 550px;
+  width: 100%; 
 }
 .pres{
   padding-top:$mt-porcent;
@@ -27,11 +27,17 @@
   color:$cl-princ;
   text-align:center;
   font-family: 'Lobster Two', cursive;
+  margin-top:-8px;
 }
 .text-center-1{
   color:$cl-princ;
   font-family: 'Lobster Two', cursive;
   padding:40px;
+}
+.text-center-3{
+  color: #E51960;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
 }
 .center{
   color:$gray;
@@ -47,6 +53,7 @@
 #sobre-mi{
   border-top:2px solid $cl-princ;
   border-bottom:2px solid $cl-princ;
+  padding-top:30px;
 }
 //portfolio
 .demo-3 {
@@ -132,4 +139,17 @@
   background-color:$black;
   border-top:2px solid $cl-princ;
   border-bottom:2px solid $cl-princ;
+  padding-top:20px;
+}
+.html{
+  float:left;
+}
+.logos:hover{
+  width:30%;
+  border-bottom:2px solid $cl-princ;
+  border-right:2px solid $cl-princ;
+}
+#sobre-mi{
+  padding-bottom:15px;
+  
 }
