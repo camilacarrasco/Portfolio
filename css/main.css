@@ -216,14 +216,16 @@ footer {
     height: 360px; }
 
   .logos img {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     text-align: center;
-    border-top: 1px solid #E51960; }
+    background-size: cover;
+    border-top: 1px solid #E51960;
+    display: block; }
 
   .logos:hover {
     width: 30%;
-    height: 30%; }
+    height: 20%; }
 
   .img-circle {
     height: 150px;
@@ -234,8 +236,8 @@ footer {
     font-size: 10px; }
 
   .demo-3 {
-    width: 120px;
-    height: 300px;
+    width: 90%;
+    height: 90%;
     overflow: hidden;
     float: left; }
 
@@ -245,16 +247,22 @@ footer {
     padding: 0;
     position: relative;
     cursor: pointer;
-    margin-left: -50px; }
+    margin-left: -50px;
+    width: 90%;
+    height: 90%; }
 
   .demo-3 figure h2 {
-    font-size: 9px;
+    font-size: 30px;
     text-align: left; }
 
   .demo-3 figure p {
-    font-size: 4px;
     display: block;
-    line-height: 8px; }
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    line-height: 18px;
+    margin: 0;
+    color: #0F0B0D;
+    text-align: center; }
 
   .demo-3 br {
     display: none; }
