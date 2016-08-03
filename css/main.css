@@ -209,7 +209,7 @@ footer {
   text-align: center;
   font-family: 'Lobster Two', cursive; }
 
-@media (min-width: 384px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 1200px) {
   .fondo-1 {
     background-image: none;
     background-color: #0F0B0D;
