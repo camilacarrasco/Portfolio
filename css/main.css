@@ -200,6 +200,12 @@ footer {
   text-align: center;
   font-family: 'Lobster Two', cursive; }
 
+.float-right {
+  float: right;
+  color: #E51960;
+  text-align: center;
+  font-family: 'Lobster Two', cursive; }
+
 @media (min-width: 384px) and (max-width: 800px) {
   .fondo-1 {
     background-image: none;
