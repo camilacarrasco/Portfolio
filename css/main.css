@@ -41,7 +41,7 @@
   color: #3f2d58;
   text-justify: justify;
   font-size: 2em;
-  font-family: 'Lobster Two', cursive; }
+  font-family: "Times New Roman", Times, serif; }
 
 .descripcion {
   font-family: 'Lobster Two', cursive;
@@ -55,8 +55,8 @@
 
 .demo-3 {
   position: relative;
-  width: 320px;
-  height: 722px;
+  width: 420px;
+  height: 600px;
   overflow: hidden;
   float: left;
   margin-right: 20px; }
@@ -132,7 +132,7 @@
   -moz-transform: rotateY(0);
   transform: rotateY(0); }
 
-#portfolio {
+#portafolio {
   background-color: #0F0B0D;
   border-top: 2px solid #E51960;
   border-bottom: 2px solid #E51960;
@@ -226,12 +226,21 @@ footer {
 
   .demo-3 {
     width: 120px;
-    height: 202px;
+    height: 300px;
     overflow: hidden;
     float: left; }
 
+  .demo-3 figure {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+    margin-left: -50px; }
+
   .demo-3 figure h2 {
-    font-size: 10px; }
+    font-size: 9px;
+    text-align: left; }
 
   .demo-3 figure p {
     font-size: 4px;
