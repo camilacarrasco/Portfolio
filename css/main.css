@@ -51,7 +51,8 @@
 #sobre-mi {
   border-top: 2px solid #E51960;
   border-bottom: 2px solid #E51960;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 25px; }
 
 .demo-3 {
   position: relative;
@@ -103,7 +104,7 @@
 .demo-3 figure figcaption {
   top: 0;
   left: 0;
-  width: 100%;
+  width: 85%;
   height: 100%;
   padding: 29px 44px;
   background-color: #627d4d;
@@ -139,12 +140,8 @@
   padding-top: 20px; }
 
 .logos:hover {
-  width: 30%;
-  border-bottom: 2px solid #E51960;
+  border-bottom: 1px solid #E51960;
   border-right: 1px solid #E51960; }
-
-#sobre-mi {
-  padding-bottom: 15px; }
 
 .espacio {
   padding-top: 30px; }
@@ -248,17 +245,17 @@ footer {
     position: relative;
     cursor: pointer;
     margin-left: -50px;
-    width: 90%;
+    width: -75%;
     height: 90%; }
 
   .demo-3 figure h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: left; }
 
   .demo-3 figure p {
     display: block;
     font-family: 'Dancing Script', cursive;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 18px;
     margin: 0;
     color: #0F0B0D;

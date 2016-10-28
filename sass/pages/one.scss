@@ -49,6 +49,7 @@
   border-top:2px solid $cl-princ;
   border-bottom:2px solid $cl-princ;
   padding-top:30px;
+  padding-bottom: 25px;
 }
 //portfolio
 .demo-3 {
@@ -101,7 +102,7 @@
 .demo-3 figure figcaption {
     top:0;
     left:0;
-    width:100%;
+    width:85%;
     height:100%;
     padding:29px 44px;
     background-color:$verde;
@@ -138,12 +139,8 @@
 }
 //sobre mi
 .logos:hover{
-  width:30%;
-  border-bottom:2px solid $cl-princ;
+  border-bottom:1px solid $cl-princ;
   border-right:1px solid $cl-princ;
-}
-#sobre-mi{
-  padding-bottom:15px;
 }
 .espacio{
   padding-top: 30px;
